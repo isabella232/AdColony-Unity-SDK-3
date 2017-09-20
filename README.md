@@ -1,8 +1,8 @@
 # AdColony SDK Unity Plugin
-- Modified: April 7, 2017
-- Unity Plugin Version: 3.1.0
-- iOS SDK Version: 3.1.1
-- Android SDK Version: 3.1.2
+- Modified: Sep 20, 2017
+- Unity Plugin Version: 3.2.1
+- iOS SDK Version: 3.2.1
+- Android SDK Version: 3.2.0
 
 ## Overview
 Increase your revenue with the advertising SDK trusted by the world’s top publishers. AdColony delivers high-definition Instant-Play™ video ads that can be displayed anywhere within your application. AdColony contains V4VC™, a secure system for rewarding users of your app with virtual currency upon the completion of video plays.

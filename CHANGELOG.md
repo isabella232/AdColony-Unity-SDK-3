@@ -1,5 +1,11 @@
 # Change Log
 
+## v3.2.1 (2017/09/20)
+* Updated to AdColony SDK 3.2.1 (iOS) and 3.2.0 (Android).
+* Support for iOS 11 and Android O
+* Added onLeftApplication and onClicked callbacks
+* Various bugfixes from support channels
+
 ## v3.1.0 (2017/04/07)
 * Updated to AdColony SDK 3.1.1 (iOS) and 3.1.2 (Android).
 * Updated to Google PlayServicesResolver 1.2.15
