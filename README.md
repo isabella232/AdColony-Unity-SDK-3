@@ -1,19 +1,19 @@
 # AdColony SDK Unity Plugin
-- Modified: Sep 20, 2017
-- Unity Plugin Version: 3.2.1
-- iOS SDK Version: 3.2.1
-- Android SDK Version: 3.2.0
+- Modified: Feb 2, 2018
+- Unity Plugin Version: 3.3.0
+- iOS SDK Version: 3.3.0
+- Android SDK Version: 3.3.0
 
 ## Overview
 AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https://www.adcolony.com/technology/instant-play/), [interactive Aurora™ Video](https://www.adcolony.com/technology/auroravideo), and Aurora™ Playable ads that can be displayed anywhere within your application. Our advertising SDK is trusted by the world’s top gaming and non-gaming publishers, delivering them the highest monetization opportunities from brand and performance advertisers. AdColony’s SDK can monetize a wide range of ad formats including in-stream/pre-roll, out-stream/interstitial and V4VC™, a secure system for rewarding users of your app with virtual currency upon the completion of video and playable ads.
 
 ## Release Notes
 
-#### Key Features of the SDK 3.2:
-* iOS 11 and Android Oreo compatibility along with several bugs fixes, stabilty and security improvements
-* User experience improvements via enhanced skippability controls and a new mute/unmute feature
-* Post-install events APIs
-* Crash reporting and a new convenient test mode feature
+#### Key Features of the SDK 3.3:
+* Added Integral Ad Science (IAS) for viewability measurement.
+* Better iPhone X compatibility
+* Fixed storage overuse issue reported by a small number of publishers upgrading from 2.x -> 3.x
+* Several bug fixes, memory usage optimizations, and stability improvements.
 
 Here is the link to the [release notes](https://github.com/AdColony/AdColony-Unity-SDK-3/blob/master/CHANGELOG.md) for all the previous SDK versions.
 
@@ -29,12 +29,12 @@ Here is the link to the [release notes](https://github.com/AdColony/AdColony-Uni
 Here is the link to [Unity SDK integration documentation](https://github.com/AdColony/AdColony-Unity-SDK-3/wiki).
 
 
-## Upgrade 
+## Upgrade
 
-#### SDK 3.x:
-In order to support thin/fat Android builds, we moved the native .so files from the `Plugins/Android/AdColony/libs` folder to the `Plugins/Android/libs` folder. Removing the `Plugins/Android/AdColony` folder before importing AdColony SDK Unity Plugin 3.1.0 is recommended. Otherwise, simply remove the `Plugins/Android/AdColony/libs/armeabi-v7a` and `Plugins/Android/AdColony/libs/x86` folders.
+#### From SDK 3.0:
+In order to support thin/fat Android builds, we moved the native .so files from the `Plugins/Android/AdColony/libs` folder to the `Plugins/Android/libs` folder. Removing the `Plugins/Android/AdColony` folder before importing is recommended. Otherwise, simply remove the `Plugins/Android/AdColony/libs/armeabi-v7a` and `Plugins/Android/AdColony/libs/x86` folders.
 
-#### SDK 2.x:
+#### From SDK 2.x:
 Please note that updating from our 2.x Unity Plugin is not a drag and drop update, but rather includes breaking API and process changes. In order to take advantage of the 3.x Unity Plugin, a complete re-integration is necessary. Please review our [documentation](https://github.com/AdColony/AdColony-Unity-SDK-3/wiki) to get a better idea on what changes will be necessary in your app.
 
 
