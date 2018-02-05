@@ -1,5 +1,12 @@
 # Change Log
 
+## v3.3.0 (2018/02/02)
+* Updated to AdColony SDK 3.3.0 (iOS) and 3.3.0 (Android)
+* Added Integral Ad Science (IAS) for viewability measurement
+* Better iPhone X compatibility (iOS)
+* Fixed storage overuse issue reported by a small number of publishers upgrading from 2.x -> 3.x (Android)
+* Several bug fixes, memory usage optimizations, and stability improvements
+
 ## v3.2.1 (2017/09/20)
 * Updated to AdColony SDK 3.2.1 (iOS) and 3.2.0 (Android).
 * Support for iOS 11 and Android O
