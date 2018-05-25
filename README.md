@@ -1,21 +1,25 @@
 # AdColony SDK Unity Plugin
-- Modified: Feb 2, 2018
-- Unity Plugin Version: 3.3.0
-- iOS SDK Version: 3.3.0
-- Android SDK Version: 3.3.0
+- Modified: May 25, 2018
+- Unity Plugin Version: 3.3.4
+- iOS SDK Version: 3.3.4
+- Android SDK Version: 3.3.4
 
 ## Overview
 AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https://www.adcolony.com/technology/instant-play/), [interactive Aurora™ Video](https://www.adcolony.com/technology/auroravideo), and Aurora™ Playable ads that can be displayed anywhere within your application. Our advertising SDK is trusted by the world’s top gaming and non-gaming publishers, delivering them the highest monetization opportunities from brand and performance advertisers. AdColony’s SDK can monetize a wide range of ad formats including in-stream/pre-roll, out-stream/interstitial and V4VC™, a secure system for rewarding users of your app with virtual currency upon the completion of video and playable ads.
 
-## Release Notes
+## Release Notes 3.3.4
 
-#### Key Features of the SDK 3.3:
-* Added Integral Ad Science (IAS) for viewability measurement.
-* Better iPhone X compatibility
-* Fixed storage overuse issue reported by a small number of publishers upgrading from 2.x -> 3.x
-* Several bug fixes, memory usage optimizations, and stability improvements.
+* Updated to AdColony SDK 3.3.4 (iOS) and 3.3.4 (Android)
+* [iOS] Fixed a bug where advertisement video's close button was not easily tappable because of the status bar overlapping.
+* [iOS] Fixed a bug where unsafe access to the device's battery level was causing a crash mentioned in [iOS SDK issue #49](https://github.com/AdColony/AdColony-iOS-SDK-3/issues/49).
+* [Android] Fixed new NullPointerException mentioned in [Android SDK issue #29](https://github.com/AdColony/AdColony-Android-SDK-3/issues/29#issuecomment-381380548).
+* [Unity] Added a new API to pass user consent as required for compliance with the European Union's General Data Protection Regulation (GDPR). If you are collecting consent from your users, you can make use of this new API to inform AdColony and all downstream consumers of the consent. Please see our GDPR FAQ for more information and our GDPR wiki for implementation details.
+* [Unity] Removed symbolic links from within native SDK
+* [Unity] Fixed missing zone ID in some log statements
+* [Unity] Fixed exception during OnRequestInterstitialFailed callback mentioned in [Unity Plugin issue #42](https://github.com/AdColony/AdColony-Unity-SDK-3/issues/42)
+* [All] Several bug fixes and stability improvements.
 
-Here is the link to the [release notes](https://github.com/AdColony/AdColony-Unity-SDK-3/blob/master/CHANGELOG.md) for all the previous SDK versions.
+See the full [release notes](https://github.com/AdColony/AdColony-Unity-SDK-3/blob/master/CHANGELOG.md) for more details.
 
 ## Getting Started
 
@@ -26,8 +30,7 @@ Here is the link to the [release notes](https://github.com/AdColony/AdColony-Uni
 1. The AdColony SDK Unity Plugin includes Google's PlayServicesResolver to automatically pull in necessary Google Play Services libraries. If there are conflicts with this, the `play-services-ads` library is the only required. You can choose to ignore this PlayServicesResolver installation, remove the `AdColony/Editor/ADCDependencies.cs` file, and include the `play-services-ads` in another way.
 1. The Plugins/Android/AdColony/AndroidManifest.xml file is automatically generated. To update manually, select "Tools"->"AdColony"->"Update AndroidManifest.xml".
 
-Here is the link to [Unity SDK integration documentation](https://github.com/AdColony/AdColony-Unity-SDK-3/wiki).
-
+See the full [Unity SDK integration documentation](https://github.com/AdColony/AdColony-Unity-SDK-3/wiki) for more details.
 
 ## Upgrade
 
