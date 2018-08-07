@@ -1,3 +1,8 @@
+# NOTE
+
+*This plugin has now been open-sourced and maintained here:* https://github.com/AdColony/AdColony-Unity-Plugin
+
+
 # AdColony SDK Unity Plugin
 - Modified: May 25, 2018
 - Unity Plugin Version: 3.3.4
